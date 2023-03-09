@@ -157,7 +157,7 @@ ExecStart=/usr/local/bin/kube-controller-manager \\
         \$KUBE_LOG_LEVEL \\
         \$KUBE_MASTER \\
         \$KUBE_CONTROLLER_MANAGER_ARGS \\
-        --experimental-cluster-signing-duration=87600h0m0s \
+        --experimental-cluster-signing-duration=876000h0m0s \
         --feature-gates=RotateKubeletServerCertificate=true
 
 Restart=always
